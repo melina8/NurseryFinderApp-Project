@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FiltersActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_first_filter">
+
+        <TextView
+            android:background="@drawable/mybox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Επιλέξτε ένα ή περισσότερα \n από τα παρακάτω φίλτρα:"
+            android:textColor="@color/likemagenda"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:id="@+id/choosefilter_edittext_fiter">
+
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear2_filter"
+        android:layout_below="@id/linear1_filter"
+        android:layout_marginTop="5dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/relative_space2"
+            >
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="2dp"
+            android:gravity="right">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear_for_dimos_filter"
+                android:orientation="horizontal"
+                android:gravity="left">
+
+                <TextView
+                    android:id="@+id/dimos_textview_filter"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text="Δήμος:"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+
+                <Spinner
+                    android:id="@+id/dimos_spinner_filter"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="0dp"
+                    android:inputType="text"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/dimos_textview2_filter"
+                android:layout_below="@+id/linear_for_dimos_filter"
+                android:background="@drawable/oval_button"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="italic|bold"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:padding="15dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear1_filter"
+        android:layout_below="@id/relative_first_filter"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="0dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="2dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear_for_nomos_filter"
+                android:orientation="horizontal"
+                android:gravity="left">
+
+                <TextView
+                    android:id="@+id/nomos_textview_filter"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text="Νομός:"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+
+                <Spinner
+                    android:id="@+id/nomos_spinner_filter"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="0dp"
+                    android:inputType="text"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/nomos_textview2_filter"
+                android:layout_below="@+id/linear_for_nomos_filter"
+                android:background="@drawable/oval_button"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="italic|bold"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:layout_marginBottom="0dp">
+
+            </TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2dp"
+            android:id="@+id/relative_space1">
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear3_filter"
+        android:layout_below="@+id/linear2_filter"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:id="@+id/relative_for_espa">
+
+            <TextView
+                android:id="@+id/espa_textview_filter"
+                android:text="συμμετοχή \n στο ΕΣΠΑ"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/espa_button_filters"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="100dp"
+                android:textStyle="italic|bold"
+                android:background="@drawable/grey_button"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp">
+
+            <TextView
+                android:id="@+id/food_textview_filter"
+                android:text="σερβίρισμα \n Φαγητού"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+               android:textColor="@color/colorPrimaryDark"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/food_button_filters"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="100dp"
+                android:textStyle="italic|bold"
+                android:background="@drawable/grey_button"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="7dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear_for_ages_filter"
+                android:orientation="horizontal"
+                android:gravity="left">
+
+                <TextView
+                    android:id="@+id/ages_textview_filter"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text="Ηλικίες από:"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+
+                <Spinner
+                    android:id="@+id/ages_spinner_filter"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="0dp"
+                    android:inputType="text"
+                    android:gravity="left"
+
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:id="@+id/ages_textview2_filter"
+                android:layout_below="@+id/linear_for_ages_filter"
+                android:background="@drawable/round_button"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="italic|bold"
+                android:textAlignment="center"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:layout_marginBottom="0dp">
+
+            </TextView>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear3_filter"
+        android:layout_marginTop="0dp"
+
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/apply_filters_button"
+            android:background="@color/colorPrimaryDark"
+            android:text="Εφαρμογή Φίλτρων"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

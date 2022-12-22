@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "396899327355",
+    "firebase_url": "https://nursery-finder-e6e13.firebaseio.com",
+    "project_id": "nursery-finder-e6e13",
+    "storage_bucket": "nursery-finder-e6e13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396899327355:android:13a666ce361f16163eb1de",
+        "android_client_info": {
+          "package_name": "com.example.nurseryfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396899327355-ok5l5cchavdck2rbpnm90fma24srtehc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFvlnh7SR6Ta9IDiz-vwo7HOYMKAk2oms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396899327355-ok5l5cchavdck2rbpnm90fma24srtehc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".fragments.PhotosFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_bar_layout_photos_frag"
+        android:background="@android:color/white"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/profile_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@android:color/white">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <Button
+        android:id="@+id/choose_image_button_photos_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Επιλέξτε Eικόνα"
+        android:layout_marginTop="40dp"
+        android:textAllCaps="false"/>
+
+    <EditText
+        android:id="@+id/description_editText_photos_frag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/choose_image_button_photos_frag"
+        android:hint="Περιγραφή"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/choose_image_button_photos_frag" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/progress_bar_photos_frag"
+        android:layout_below="@id/description_editText_photos_frag"
+        android:background="@drawable/ic_action_photo"
+        android:layout_marginTop="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar_photos_frag"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/upload_button_photos_frag"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/upload_button_photos_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Ανέβασμα Αρχείου"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/all_uploads_button_photos_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/upload_button_photos_frag"
+        android:layout_alignTop="@+id/upload_button_photos_frag"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/upload_button_photos_frag"
+        android:gravity="center"
+        android:text="Προβολή Φωτογραφιών"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/upload_button_photos_frag" />
+
+</RelativeLayout>

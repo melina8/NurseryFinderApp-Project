@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_drawer_menu"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/ic_action_home"
+            android:title="Αρχική Σελίδα" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_action_profile"
+            android:title="Προφίλ" />
+        <item
+            android:id="@+id/edit_profile"
+            android:icon="@drawable/ic_action_edit"
+            android:title="Επεξεργασία Προφίλ" />
+        <item
+            android:id="@+id/add_photos"
+            android:icon="@drawable/ic_action_photo"
+            android:title="Φωτογραφίες" />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_action_search"
+            android:title="Αναζήτηση" />
+        <item
+            android:id="@+id/delete_account"
+            android:icon="@drawable/ic_action_delete"
+            android:title="Διαγραφή Λογαριασμού" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_action_logout"
+            android:title="Αποσύνδεση" />
+
+
+    </group>
+</menu>

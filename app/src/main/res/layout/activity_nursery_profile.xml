@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NurseryProfileActivity">
+
+    <ScrollView
+
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/name_textview_profile_nursery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="Όνομα Παιδικού Σταθμού"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:background="@drawable/mybox"
+                android:id="@+id/linear_inside_nursery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:padding="0dp"
+                >
+
+                <ImageView
+                    android:background="@drawable/mybox"
+                    android:id="@+id/profile_image_profile_nursery"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/ic_action_profile"
+
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linear_for_nomos_nursery"
+                        android:orientation="horizontal"
+                        android:gravity="left"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:id="@+id/nomos_textview_nursery"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:paddingLeft="0dp"
+                            android:gravity="left"
+                            android:text="Νομός:"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/nomos_spinner_profile_nursery"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:inputType="text"
+                            android:text="Ο Νομός μου"
+                            android:textColor="@color/likemagenda"
+                            android:textSize="16sp"
+                            android:gravity="left"
+                            android:textStyle="italic"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linear_for_dimos_nursery"
+                        android:layout_below="@id/linear_for_nomos_nursery"
+                        android:orientation="horizontal"
+                        android:gravity="left"
+                        android:layout_marginTop="0dp"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:id="@+id/dimos_textview_profile_nursery"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:paddingLeft="0dp"
+                            android:gravity="left"
+                            android:text="Δήμος:"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/dimos_spinner_profile_nursery"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:inputType="text"
+                            android:text="Ο Δήμος μου"
+                            android:textColor="@color/likemagenda"
+                            android:textSize="16sp"
+                            android:gravity="left"
+                            android:textStyle="italic"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linear_for_address_nursery"
+                        android:layout_below="@id/linear_for_dimos_nursery"
+                        android:orientation="horizontal"
+                        android:gravity="left"
+                        android:layout_marginTop="0dp">
+
+
+
+                        <TextView
+                            android:id="@+id/address_textview_profile_nursery"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:gravity="left"
+                            android:text="Η Διεύθυνσή μου"
+                            android:paddingLeft="13dp"
+                            android:textColor="@color/likemagenda"
+                            android:textSize="16sp"
+                            android:textStyle="italic"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/map_button_profile_nursery"
+                        android:layout_width="112dp"
+                        android:layout_height="33dp"
+                        android:layout_below="@id/linear_for_address_nursery"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/oval_button"
+                        android:paddingBottom="4dp"
+                        android:text="Χάρτης"
+                        android:gravity="center"
+                        android:textAllCaps="false"
+                        android:textColor="@color/likemagenda"
+                        android:textSize="16dp" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:background="@drawable/mybox"
+                android:id="@+id/linear_for_email_and_phone_nursery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/linear1_nursery">
+
+                <ImageButton
+                    android:id="@+id/email_icon_nursery"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:src="@drawable/ic_email_black_24dp"/>
+
+                <TextView
+                    android:id="@+id/email_textview_profile_nursery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/likemagenda"
+                    android:text="email"
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    android:textSize="16sp"/>
+
+
+                <ImageButton
+                    android:id="@+id/phone_icon_nursery"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_local_phone_black_24dp"/>
+
+                <TextView
+                    android:id="@+id/phone_textview_profile_nursery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:textColor="@color/likemagenda"
+                    android:text="τηλέφωνο"
+                    android:textStyle="italic"
+                    android:textSize="16dp"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_before_end_nursery"
+                android:background="@drawable/mybox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linear_for_email_and_phone_nursery"
+                android:paddingTop="0dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linear_for_ages_prof_nursery"
+                    android:orientation="horizontal"
+                    android:gravity="left">
+
+                    <TextView
+                        android:id="@+id/ages_textview_profile_nursery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:paddingLeft="10dp"
+                        android:gravity="left"
+                        android:text="Δεχόμαστε ηλικίες από:  "
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="5dp"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/ages_spinner_profile_nursery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="Ηλικία"
+                        android:textStyle="italic"
+                        android:textColor="@color/likemagenda"
+                        android:textSize="16sp"
+                        android:gravity="center"
+
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linear_for_espa_prof_nursery"
+                    android:layout_below="@id/linear_for_ages_prof_nursery"
+                    android:orientation="horizontal"
+                    android:gravity="left"
+                    android:layout_marginTop="0dp">
+
+                    <TextView
+                        android:id="@+id/espa_textview_profile_nursery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:paddingLeft="10dp"
+                        android:gravity="left"
+                        android:text="Συμμετέχουμε στο ΕΣΠΑ:  "
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="5dp" />
+
+
+                    <TextView
+                        android:id="@+id/espa_spinner_profile_nursery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:inputType="text"
+                        android:text="ΕΣΠΑ"
+                        android:textStyle="italic"
+                        android:textColor="@color/likemagenda"
+                        android:textSize="16sp"
+                        android:gravity="center"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linear_for_food_prof"
+                    android:layout_below="@id/linear_for_espa_prof_nursery"
+                    android:orientation="horizontal"
+                    android:gravity="left"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="0dp">
+
+
+
+                    <TextView
+                        android:id="@+id/food_textview_profile_nursery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="left"
+                        android:text="Σερβίρουμε φαγητό:  "
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:id="@+id/food_spinner_profile_nursery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:inputType="text"
+                        android:text="Φαγητό"
+                        android:textStyle="italic"
+                        android:textColor="@color/likemagenda"
+                        android:textSize="16sp"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/relative_end_nursery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/photos_button_profile_nursery"
+                    android:background="@drawable/oval_button"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="8dp"
+                    android:layout_centerInParent="true"
+                    android:text="Φωτογραφικό Υλικό"
+                    android:textAllCaps="false"
+                    android:textColor="@color/likemagenda"
+                    android:textStyle="bold"
+                    android:textSize="16dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_final_nursery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/activities_textView_prof_nursery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="8dp"
+                    android:text="Δραστηριότητες:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+
+
+                <TextView
+
+                    android:background="@drawable/mybox"
+                    android:layout_below="@id/activities_textView_prof_nursery"
+                    android:id="@+id/activities_textview_profile_nursery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:textColor="@color/likemagenda"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+                <!--android:text="Ο Παιδικός Σταθμός μας προσφέρει..."-->
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

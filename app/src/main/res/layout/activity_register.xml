@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/name_edittext_register"
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Όνομα Παιδικού Σταθμού"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/likemagenda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/phone_edittext_register"
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:hint="Τηλέφωνο Παιδικού Σταθμού"
+        android:inputType="phone"
+        android:textColor="@color/likemagenda"
+        android:paddingLeft="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_edittext_register" />
+
+    <EditText
+        android:id="@+id/email_edittext_register"
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="8dp"
+        android:textColor="@color/likemagenda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_edittext_register" />
+
+    <Button
+        android:id="@+id/register_button_register"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_edittext_register" />
+
+    <Button
+        android:id="@+id/alreadyhaveaccount_button_register"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/likemagenda"
+        android:paddingLeft="2dp"
+        android:text="@string/already_account"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_button_register"
+        app:layout_constraintVertical_bias="0.974" />
+
+    <EditText
+        android:id="@+id/password_edittext_register"
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+        android:textColor="@color/likemagenda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_edittext_register" />
+</androidx.constraintlayout.widget.ConstraintLayout>

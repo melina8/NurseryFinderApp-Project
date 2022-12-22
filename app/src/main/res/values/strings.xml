@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Βρες Παιδικό Σταθμό</string>
+    <string name="i_am_parent">ΕΙΜΑΙ ΓΟΝΕΑΣ</string>
+    <string name="i_am_nursery_owner">ΕΙΜΑΙ ΙΔΙΟΚΤΗΤΗΣ \n ΠΑΙΔΙΚΟΥ ΣΤΑΘΜΟΥ</string>
+    <string name="search_with_filters">Αναζήτηση με Φίλτρα</string>
+    <string name="present_all">Εμφάνιση όλων (κατά Νομό)</string>
+    <string name="search_nursery">Αναζήτηση Παιδικών Σταθμών</string>
+    <string name="register">ΕΓΓΡΑΦΗ</string>
+    <string name="already_account">Έχεις ήδη λογαριασμό; Κάνε είσοδο</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin">ΕΙΣΟΔΟΣ</string>
+    <string name="noaccount">Δεν έχεις λογαριασμό; Κάνε εγγραφή</string>
+    <string name="menu">Μενού</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

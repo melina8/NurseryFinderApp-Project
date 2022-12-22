@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:background="@drawable/mybox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/relative_first">
+
+            <EditText
+                android:id="@+id/name_editText_edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="16dp"
+                android:inputType="text"
+                android:hint="Συμπληρώστε το Όνομα του ΠΣ"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="@drawable/mybox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear1_edit_profile"
+            android:layout_below="@+id/relative_first">
+
+            <ImageView
+                android:id="@+id/profile_image_edit_profile"
+                android:background="@drawable/mybox"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_action_profile"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linear_for_nomos"
+                    android:orientation="horizontal"
+                    android:gravity="left">
+
+                    <TextView
+                        android:id="@+id/nomos_textview_edit_profile"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="left"
+                        android:paddingTop="12dp"
+                        android:paddingLeft="10dp"
+                        android:text="ΕΠΙΛΕΞΤΕ ΝΟΜΟ:"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorHint="@color/likemagenda"
+                        android:textSize="16sp" />
+
+
+                    <Spinner
+                        android:id="@+id/nomos_spinner_edit_profile"
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="15dp"
+                        android:inputType="text"
+                        android:gravity="left"
+
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linear_for_dimos"
+                    android:layout_below="@id/linear_for_nomos"
+                    android:orientation="horizontal"
+                    android:gravity="left"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/dimos_textview_edit_profile"
+                        android:layout_width="150dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="left"
+                        android:text="ΕΠΙΛΕΞΤΕ ΔΗΜΟ:"
+                        android:paddingTop="12dp"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorHint="@color/likemagenda"
+                        android:textSize="16sp" />
+
+
+                    <Spinner
+                        android:id="@+id/dimos_spinner_edit_profile"
+                        android:layout_width="40dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="15dp"
+                        android:inputType="text"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="left"
+
+                        />
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/change_image_button_edit_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Αλλαγή εικόνας"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@color/likemagenda"
+            android:layout_below="@id/linear1_edit_profile"
+            />
+
+        <EditText
+            android:background="@drawable/mybox"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/address_editText_edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/change_image_button_edit_profile"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="8dp"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryDark"
+            android:hint="Συμπληρώστε τη διεύθυνση του ΠΣ"
+            />
+
+
+        <EditText
+            android:background="@drawable/mybox"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/email_editText_edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address_editText_edit_profile"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="8dp"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryDark"
+            android:hint="Συμπληρώστε το email του ΠΣ"
+            />
+
+        <EditText
+            android:background="@drawable/mybox"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/phone_editText_edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email_editText_edit_profile"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="8dp"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryDark"
+            android:hint="Συμπληρώστε το τηλέφωνο του ΠΣ"
+            />
+
+        <RelativeLayout
+            android:background="@drawable/mybox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relative_last"
+            android:layout_marginTop="14dp"
+            android:layout_below="@id/phone_editText_edit_profile">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/linear_for_ages"
+                android:orientation="horizontal"
+                android:gravity="left">
+
+                <TextView
+                    android:id="@+id/ages_textview_edit_profile"
+                    android:layout_width="230dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="ΔΕΧΟΜΑΣΤΕ ΗΛΙΚΙΕΣ ΑΠΟ:"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+
+                <Spinner
+                    android:id="@+id/ages_spinner_edit_profile"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="14dp"
+                    android:inputType="text"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/linear_for_espa"
+                android:layout_below="@id/linear_for_ages"
+                android:orientation="horizontal"
+                android:gravity="left">
+
+                <TextView
+                    android:id="@+id/espa_textview_edit_profile"
+                    android:layout_width="230dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="ΣΥΜΜΕΤΕΧΟΥΜΕ στο ΕΣΠΑ:"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+
+                <Spinner
+                    android:id="@+id/espa_spinner_edit_profile"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="14dp"
+                    android:inputType="text"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/linear_for_food"
+                android:orientation="horizontal"
+                android:layout_below="@id/linear_for_espa"
+                android:gravity="left">
+
+                <TextView
+                    android:id="@+id/food_textview_edit_profile"
+                    android:layout_width="230dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="ΣΕΡΒΙΡΟΥΜΕ ΦΑΓΗΤΟ:"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+
+                <Spinner
+                    android:id="@+id/food_spinner_edit_profile"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="14dp"
+                    android:inputType="text"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_activities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative_last">
+
+
+
+            <EditText
+                android:background="@drawable/mybox"
+                android:id="@+id/activities_editText_edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="14dp"
+                android:inputType="textMultiLine"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:hint="Περιγράψτε συνοπτικά τις δραστηριότητες του ΠΣ..."
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/colorPrimaryDark"
+
+                />
+
+
+            <Button
+                android:id="@+id/savedata_button_edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="12dp"
+                android:text="Αποθήκευση"
+                android:textAllCaps="false"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/activities_editText_edit_profile"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>
