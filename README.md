@@ -14,7 +14,7 @@ NurseryFinder (Βρες Παιδικό Σταθμό in Greek) is an Android appl
 containing information about Nurseries throughout the country, which is accessible to both 
 nursery owners, giving them the ability to create a business profile, 
 as well as to parents searching for the most suitable Nursery for their children. 
-The application provides the ability to view Nurseries profiles and photos, find them in location maps, 
+The application provides to the user the ability to view Nurseries profiles and photos, find them in location maps, 
 contact them via email or phone through the application, but also offers  the ability to use filters 
 in order to search the database with criteria, according to users requirements.
 
