@@ -19,7 +19,7 @@ The application provides to the user the ability to view Nurseries' profiles and
 contact them via email or phone through the application, but also offers  the ability to use filters 
 in order to search the database with criteria, according to users' requirements.
 
-Firebase platform was used auxiliary in order to host all the database info.
+Firebase platform was used auxiliary for user authentication and for hosting realtime data. 
 
 The application was made in Greek language.
 
