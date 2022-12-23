@@ -21,11 +21,9 @@ in order to search the database with criteria, according to users' requirements.
 
 Firebase platform was used auxiliary in order to host all the database info.
 
+The application was made in Greek language.
 
-
-
-
-
-
-
-
+## Screenshots from the App ##
+<img src="https://user-images.githubusercontent.com/119127267/209245093-d3ef873e-8976-4d2c-8bbb-4ab8e818c60e.jpg"
+width="300" height="500">    <img src="https://user-images.githubusercontent.com/119127267/209245355-48aa13d8-ffd6-420a-967f-3d1b470c3369.jpg"
+width="300" height="500">
