@@ -25,9 +25,9 @@ The application was made in Greek language.
 
 ## Screenshots from the App ##
 <img src="https://user-images.githubusercontent.com/119127267/209483993-41ad01b7-4ddb-4c58-8ccc-4bd4ec1cad29.png"
-width="280" height="480">   <img src="https://user-images.githubusercontent.com/119127267/209483863-6d8a729b-9116-4ed5-8952-dccc0e72b935.png"
-width="280" height="480">  <img src="https://user-images.githubusercontent.com/119127267/209484078-64280959-ea5b-456a-a46f-f2484f5e9105.png"
-width="280" height="480">
+width="270" height="470">   <img src="https://user-images.githubusercontent.com/119127267/209483863-6d8a729b-9116-4ed5-8952-dccc0e72b935.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209484078-64280959-ea5b-456a-a46f-f2484f5e9105.png"
+width="270" height="470">
 
 
 
