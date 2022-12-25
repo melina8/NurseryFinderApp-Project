@@ -24,6 +24,12 @@ Firebase platform was used auxiliary for user authentication and for hosting rea
 The application was made in Greek language.
 
 ## Screenshots from the App ##
-<img src="https://user-images.githubusercontent.com/119127267/209245093-d3ef873e-8976-4d2c-8bbb-4ab8e818c60e.jpg"
-width="300" height="500">    <img src="https://user-images.githubusercontent.com/119127267/209245355-48aa13d8-ffd6-420a-967f-3d1b470c3369.jpg"
-width="300" height="500">
+<img src="https://user-images.githubusercontent.com/119127267/209483993-41ad01b7-4ddb-4c58-8ccc-4bd4ec1cad29.png"
+width="280" height="480">   <img src="https://user-images.githubusercontent.com/119127267/209483863-6d8a729b-9116-4ed5-8952-dccc0e72b935.png"
+width="280" height="480">  <img src="https://user-images.githubusercontent.com/119127267/209484078-64280959-ea5b-456a-a46f-f2484f5e9105.png"
+width="280" height="480">
+
+
+
+
+
