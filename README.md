@@ -61,6 +61,24 @@ They also have the ability to permanently delete their account or log out:
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485736-aa855109-ad9d-47b6-9ba2-5032c3295db3.png"
 width="270" height="470">
 
+Both users (Nursery owners and Parents) can scroll down the database and access any nursery profile:
+
+<img src="https://user-images.githubusercontent.com/119127267/209485958-7d893f10-754e-44f7-a976-4140b189f21a.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485978-863917b9-b5ec-4127-b0a0-c5d07408b1d7.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485985-8d4835bc-1d4f-4b67-b016-81c25263fe72.png"
+width="270" height="470">
+
+They can pick the nursery profile they wish and send an email or call their number through the app. They can also find the nursery school on the map
+and navigate to their photo gallery:
+
+<img src="https://user-images.githubusercontent.com/119127267/209486219-05afe35b-c63d-4151-b0a7-9abb0f67f087.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486227-cd321420-41c3-46f4-8028-441fa826d9e0.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486237-f5c5939d-7204-44f2-a377-8c6e122c9eb7.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486256-cb1d11c9-44f4-4376-b1e7-159afea642f0.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486262-af56d372-f23c-40eb-9751-8be4c4e9d5d5.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486592-d95af4e7-9594-4fb9-b900-250f41f44875.png"
+width="270" height="470">
+
 
 
 
