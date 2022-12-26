@@ -43,6 +43,19 @@ width="270" height="470">   <img src="https://user-images.githubusercontent.com/
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485200-ba97900b-4d1a-4d59-a33a-080d5b0cd514.png"
 width="270" height="470"> 
 
+Nursery owners can upload their photos and add descriptions of them. They can edit or delete their uploads as they wish:
+
+<img src="https://user-images.githubusercontent.com/119127267/209485425-a6217ce8-60f1-46ef-b9e2-1ae7cd8cb797.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485440-8d0d3d16-ccd1-4322-98f1-328bf87ffa27.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485448-5450ea7f-d2ad-4a78-be1d-74207c5849cb.png"
+width="270" height="470"> 
+
+<img src="https://user-images.githubusercontent.com/119127267/209485456-9d647040-ad38-4cc5-9ee9-44a2c787efe4.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485467-f3803a75-de84-4ae9-8efb-edee220ca438.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485595-609927bc-e472-4bda-bd4a-7f678db9a68d.png"
+width="270" height="470"> 
+
+
 
 
 
