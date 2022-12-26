@@ -30,15 +30,18 @@ The Nursery owners can log in or sign up to their account and navigate to their 
 <img src="https://user-images.githubusercontent.com/119127267/209483993-41ad01b7-4ddb-4c58-8ccc-4bd4ec1cad29.png"
 width="270" height="470">   <img src="https://user-images.githubusercontent.com/119127267/209483863-6d8a729b-9116-4ed5-8952-dccc0e72b935.png"
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209484078-64280959-ea5b-456a-a46f-f2484f5e9105.png"
-width="270" height="470">
+width="270" height="470">  
 
 They can edit the profile by making choices from drop down menus or by completing texts. Informative messages will help them throughout the process:
 
 <img src="https://user-images.githubusercontent.com/119127267/209484581-0a6ede77-3c5a-4c49-b367-1fbd163800c5.png" 
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209484633-4092cd18-ed9b-4e55-b08b-7e90e6d3d925.png" 
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209484642-eded7044-4ed6-46b0-9ba7-2be2f8ec5026.png" 
-width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209484651-38721bb0-a096-4ff7-99f3-5bcf684a379d.png" 
-width="270" height="470">
+width="270" height="470"> 
+<img src="https://user-images.githubusercontent.com/119127267/209484651-38721bb0-a096-4ff7-99f3-5bcf684a379d.png" 
+width="270" height="470">   <img src="https://user-images.githubusercontent.com/119127267/209485161-1821ae97-6a03-4088-89aa-4d6bfab6dbc8.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485200-ba97900b-4d1a-4d59-a33a-080d5b0cd514.png"
+width="270" height="470"> 
 
 
 
