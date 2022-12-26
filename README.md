@@ -55,6 +55,13 @@ width="270" height="470">  <img src="https://user-images.githubusercontent.com/1
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485595-609927bc-e472-4bda-bd4a-7f678db9a68d.png"
 width="270" height="470"> 
 
+They also have the ability to permanently delete their account or log out:
+
+<img src="https://user-images.githubusercontent.com/119127267/209485733-f9309c87-214c-4cc3-93c5-0d68ff40b39f.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485736-aa855109-ad9d-47b6-9ba2-5032c3295db3.png"
+width="270" height="470">
+
+
 
 
 
