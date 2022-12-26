@@ -68,8 +68,8 @@ width="270" height="470">  <img src="https://user-images.githubusercontent.com/1
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485985-8d4835bc-1d4f-4b67-b016-81c25263fe72.png"
 width="270" height="470">
 
-They can pick the nursery profile they wish and contact them via email or phone through the app. They can also find the nursery school on the map
-and navigate to their photo gallery:
+They can pick the nursery profile they wish and contact them via email or phone through the app. They can also find the nursery school 
+on the map or navigate to their photo gallery:
 
 <img src="https://user-images.githubusercontent.com/119127267/209486219-05afe35b-c63d-4151-b0a7-9abb0f67f087.png"
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486227-cd321420-41c3-46f4-8028-441fa826d9e0.png"
@@ -79,7 +79,7 @@ width="270" height="470">  <img src="https://user-images.githubusercontent.com/1
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486592-d95af4e7-9594-4fb9-b900-250f41f44875.png"
 width="270" height="470">
 
-Finally all users have the ability to search nursery profiles using filters according to their preferences:
+Last but not least, all users have the ability to search nursery profiles using filters according to their preferences:
 
 <img src="https://user-images.githubusercontent.com/119127267/209486923-69ca9c40-6fa0-4e81-af28-a4bc6df1fbe0.png"
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486936-41e243bb-12c0-416f-9bbc-4692a83c312f.png"
