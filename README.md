@@ -68,7 +68,7 @@ width="270" height="470">  <img src="https://user-images.githubusercontent.com/1
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485985-8d4835bc-1d4f-4b67-b016-81c25263fe72.png"
 width="270" height="470">
 
-They can pick the nursery profile they wish and send an email or call their number through the app. They can also find the nursery school on the map
+They can pick the nursery profile they wish and contact them via email or phone through the app. They can also find the nursery school on the map
 and navigate to their photo gallery:
 
 <img src="https://user-images.githubusercontent.com/119127267/209486219-05afe35b-c63d-4151-b0a7-9abb0f67f087.png"
@@ -77,6 +77,16 @@ width="270" height="470">  <img src="https://user-images.githubusercontent.com/1
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486256-cb1d11c9-44f4-4376-b1e7-159afea642f0.png"
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486262-af56d372-f23c-40eb-9751-8be4c4e9d5d5.png"
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486592-d95af4e7-9594-4fb9-b900-250f41f44875.png"
+width="270" height="470">
+
+Finally all users have the ability to search nursery profiles using filters according to their preferences:
+
+<img src="https://user-images.githubusercontent.com/119127267/209486923-69ca9c40-6fa0-4e81-af28-a4bc6df1fbe0.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486936-41e243bb-12c0-416f-9bbc-4692a83c312f.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486948-2c8273a7-1f25-47dc-ae60-43a6cbb61dcf.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209487098-324df8ff-c6b3-4a43-b932-a8c5163eaad5.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486990-c6712705-f7db-433f-91ae-62a546ef82e4.png"
+width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209487115-7d5927e6-6255-40c9-9d7c-4dd16e9b362e.png"
 width="270" height="470">
 
 
