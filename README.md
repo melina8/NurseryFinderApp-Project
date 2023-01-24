@@ -1,5 +1,5 @@
 # NurseryFinder - Βρες Παιδικό Σταθμό
-An Android application written in Kotlin programming language  (part of my master thesis)
+An Android application written in the Kotlin programming language, as part of my master's thesis.
 
 <img src="https://user-images.githubusercontent.com/119127267/209033132-625ed357-faca-4587-ae7d-937825adf949.jpg"
 width="300" height="500">
@@ -15,7 +15,7 @@ containing information about Nurseries throughout the country, which is accessib
 a) Nursery owners, giving them the ability to create a business profile, as well as to 
 b) Parents searching for the most suitable Nursery for their children. 
 
-The application provides to the user the ability to view Nurseries' profiles and photos, find them in location maps, 
+The application provides to the user the ability to view Nurseries' profiles and photos, find them on location maps, 
 contact them via email or phone through the application, but also offers  the ability to use filters 
 in order to search the database with criteria, according to users' requirements.
 
@@ -32,7 +32,7 @@ width="270" height="470">   <img src="https://user-images.githubusercontent.com/
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209484078-64280959-ea5b-456a-a46f-f2484f5e9105.png"
 width="270" height="470">  
 
-They can edit the profile by making choices from drop down menus or by completing texts. Informative messages will help them throughout the process:
+They can edit the profile by making choices from drop down menus or by completing text fields. Informative messages will guide them throughout the process:
 
 <img src="https://user-images.githubusercontent.com/119127267/209484581-0a6ede77-3c5a-4c49-b367-1fbd163800c5.png" 
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209484633-4092cd18-ed9b-4e55-b08b-7e90e6d3d925.png" 
@@ -43,7 +43,7 @@ width="270" height="470">   <img src="https://user-images.githubusercontent.com/
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485200-ba97900b-4d1a-4d59-a33a-080d5b0cd514.png"
 width="270" height="470"> 
 
-Nursery owners can upload their photos and add descriptions of them. They can edit or delete their uploads as they wish:
+Nursery owners can upload photos and add descriptions of them. They can edit or delete their uploads as desired:
 
 <img src="https://user-images.githubusercontent.com/119127267/209485425-a6217ce8-60f1-46ef-b9e2-1ae7cd8cb797.png"
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485440-8d0d3d16-ccd1-4322-98f1-328bf87ffa27.png"
@@ -61,15 +61,14 @@ They also have the ability to permanently delete their account or log out:
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485736-aa855109-ad9d-47b6-9ba2-5032c3295db3.png"
 width="270" height="470">
 
-Both users (Nursery owners and Parents) can scroll down the database and access any nursery profile:
+Both users (Nursery owners and Parents) can scroll through the database and access any nursery profile:
 
 <img src="https://user-images.githubusercontent.com/119127267/209485958-7d893f10-754e-44f7-a976-4140b189f21a.png"
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485978-863917b9-b5ec-4127-b0a0-c5d07408b1d7.png"
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485985-8d4835bc-1d4f-4b67-b016-81c25263fe72.png"
 width="270" height="470">
 
-They can pick the nursery profile they wish and contact them via email or phone through the app. They can also find the nursery school 
-on the map or navigate to their photo gallery:
+They can select the nursery profile they wish and contact them via email or phone through the app. They can also locate the nursery on a map or view their photo gallery:
 
 <img src="https://user-images.githubusercontent.com/119127267/209486219-05afe35b-c63d-4151-b0a7-9abb0f67f087.png"
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486227-cd321420-41c3-46f4-8028-441fa826d9e0.png"
@@ -79,7 +78,7 @@ width="270" height="470">  <img src="https://user-images.githubusercontent.com/1
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486592-d95af4e7-9594-4fb9-b900-250f41f44875.png"
 width="270" height="470">
 
-Last but not least, all users have the ability to search nursery profiles using filters according to their preferences:
+Finally, all users have the ability to search for nursery profiles using filters based on their preferences:
 
 <img src="https://user-images.githubusercontent.com/119127267/209486923-69ca9c40-6fa0-4e81-af28-a4bc6df1fbe0.png"
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486936-41e243bb-12c0-416f-9bbc-4692a83c312f.png"
