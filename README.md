@@ -68,7 +68,7 @@ width="270" height="470">  <img src="https://user-images.githubusercontent.com/1
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209485985-8d4835bc-1d4f-4b67-b016-81c25263fe72.png"
 width="270" height="470">
 
-They can select the nursery profile they wish and contact them via email or phone through the app. They can also locate the nursery on a map or view their photo gallery:
+They can select the nursery profile they desire and contact them via email or phone through the app. They can also locate the nursery on a map or view their photo gallery:
 
 <img src="https://user-images.githubusercontent.com/119127267/209486219-05afe35b-c63d-4151-b0a7-9abb0f67f087.png"
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486227-cd321420-41c3-46f4-8028-441fa826d9e0.png"
