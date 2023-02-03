@@ -7,7 +7,6 @@ width="300" height="500">
 ## About ##
 - What is NurseryFinder
 - Screenshots from the App
-- Some code examples
              
 ## What is NurseryFinder ##
 NurseryFinder (Βρες Παιδικό Σταθμό in Greek) is an Android application that concerns the creation of a database 
@@ -87,9 +86,6 @@ width="270" height="470">  <img src="https://user-images.githubusercontent.com/1
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209486990-c6712705-f7db-433f-91ae-62a546ef82e4.png"
 width="270" height="470">  <img src="https://user-images.githubusercontent.com/119127267/209487115-7d5927e6-6255-40c9-9d7c-4dd16e9b362e.png"
 width="270" height="470">
-
-
-## Some code examples ##
 
 
 
